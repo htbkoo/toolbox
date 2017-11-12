@@ -1,0 +1,5 @@
+From:
+import (.*) from (.*);
+
+To:
+const $1=require($2).default;
